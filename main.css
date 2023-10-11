@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    width: 100vw;
+    position: fixed;
+}
+
+footer{
+    bottom: 0;
+    position:relative;
+}
+
+.bar-renk{
+    background: rgba(48, 38, 189, 0.849);
+}
+#navbar{
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 50px;
+}
+
+#navbar h1{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: space-evenly;
+}
+
+#navbar ul li{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#navbar ul li a{
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: rgba(48, 38, 189, 0.849);
+    background-color: white;
+    border-radius: 3px;
+}
+
+footer #navbar ul{
+    position: absolute;
+    right: 0;
+}
+
+#ert img{
+    margin-top: 90px;
+    max-width: 100%;
+    height: 400px;
+    border-radius: 100%;
+}
+
+#ert .ozellik{
+    opacity: 0.6;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+#ert .bilgi .isim{
+    box-sizing: border-box;
+}
+
+#ert .bilgi .isim:hover{
+    background-color: #f2f2f2;
+}
+
+.bilgi{
+    border-bottom: 1px solid rgba(48, 38, 189, 0.849);
+    margin-bottom: 8px;
+}
+
+#sayfa .items{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#sayfa .items .sidebar{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+#sayfa .items .sidebar .google{
+    display: flex;
+    flex-direction: row;
+}
+
+#sayfa .items .sidebar .google ul{
+    list-style-type: none;
+}
+
+#sayfa .items .sidebar img{
+    max-width: 100%;
+    height: 300px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+}
+
+#sayfa .items .sidebar .sosyal li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+}
+
+#sayfa .items .sidebar .sosyal a i{
+    zoom: 300%;
+    color: rgba(48, 38, 189, 0.849);}
+
+.yazi{
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.yazi img{
+    margin-top: 1px;
+    height: 200px;
+}
+
+.items .yazilar .yazi{
+    display: flex;
+    flex-direction: row;
+}
+
+.items .yazilar .yazi .aciklama{
+    padding: 0.4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.items .yazilar .yazi .aciklama .baslik{
+    font-weight: 505;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.items .yazilar .yazi .aciklama .tarih{
+    opacity: 1;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.items .yazilar .yazi .aciklama .okunma{
+    opacity: 0.6;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
